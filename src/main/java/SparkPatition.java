@@ -24,7 +24,7 @@ public class SparkPatition {
         sf.setMaster("spark://localhost:7077");
         sf.setAppName("local-spark");
         //471859200 Bytes = 450 MB (in binary) executor memory can't lower then this
-       // sf.set("spark.sql.files.maxPartitionBytes","134217728"); //default 128 mb =43 partion, 14 sec(if 512mb exec ram)
+       // sf.set("spark.sql.filles.maxPartitionBytes","134217728"); //default 128 mb =43 partion, 14 sec(if 512mb exec ram)
         //sf.set("spark.sql.files.maxPartitionBytes","134217728"); //default 128 mb =43 partion, 14 sec(if 512mb exec ram)
         //sf.set("spark.sql.files.maxPartitionBytes","134217728"); //default 128 mb =43 partion, 11 sec(if 2,3gb exec ram)
 
